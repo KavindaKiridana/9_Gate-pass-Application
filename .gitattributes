@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Custom for Visual Studio
+*.cs     linguist-language=C#
+*.csproj linguist-language=C#
+*.sln    linguist-language=C#
+*.cshtml linguist-language=C#
+*.razor  linguist-language=C#
+
+# Exclude files from language statistics
+*.css    linguist-vendored
+*.scss   linguist-vendored
+*.js     linguist-vendored
+*.html   linguist-vendored
+wwwroot/* linguist-vendored
